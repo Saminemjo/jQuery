@@ -1,0 +1,34 @@
+@charset "UTF-8";
+img {
+    width: 600px;
+    height: 500px;
+}
+
+#slideshow {
+    width: 600px;
+    height: 530px;
+    margin: auto;
+    overflow: hidden;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.bouton-gauche {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bouton-droit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.slider {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
